@@ -23,6 +23,13 @@ android {
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+
+        manifestPlaceholders = [
+                onesignal_app_id: 'db3505d4-aa23-421b-bfcc-0caa9279b16a',
+                // Project number pulled from dashboard, local value is ignored.
+                onesignal_google_project_number: 'REMOTE'
+        ]
+
     }
     buildTypes {
         release {
@@ -39,4 +46,6 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'com.android.support.test:runner:1.0.1'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.1'
+
+    compile 'com.onesignal:OneSignal:[3.8.3, 3.99.99]'
 }
