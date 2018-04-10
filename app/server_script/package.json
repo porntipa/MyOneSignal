@@ -1,0 +1,14 @@
+{
+  "name": "server_script",
+  "version": "1.0.0",
+  "description": "",
+  "main": "push.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "onesignal-node": "^1.0.2"
+  }
+}
