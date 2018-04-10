@@ -2,8 +2,8 @@ var OneSignal = require('onesignal-node');
 
 // first we need to create a client
 var myClient = new OneSignal.Client({
-    userAuthKey: 'MzE0YTMzOTAtNGFiZC00OGU5LTlkNmItMDI1NjNlMGM0OWY2',
-    app: { appAuthKey: 'YTEzZTI0MDYtYmMxMy00OWJjLTkyOTMtMDBkNGY0MTkwYzA5', appId: 'ee2dd7da-f187-4b50-ab2b-e3b30191090d' }
+    userAuthKey: 'ZjJhYjhkYmMtNDljOS00YzlkLTk3ZTMtNmZlYmM0ZTljZWQ3',
+    app: { appAuthKey: 'ZWY1NTE2M2YtYmJmNy00NGExLWE1ZmMtZjMzNDU5ODE4NDg3', appId: 'db3505d4-aa23-421b-bfcc-0caa9279b16a' }
 });
 
 // we need to create a notification to send
